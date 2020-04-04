@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>My Blog - How To Learn Angular</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <style>
+    .social-buttons a{
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 18px;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 8px;
+  top: -17px;
+  right: 100px;
+}
+
+.social-buttons a::before{
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(45deg,#22a6b3,#30336b);
+  border-radius: 50%;
+  z-index: -1;
+  transition: 0.3s ease-in;
+}
+
+.social-buttons a:hover::before{
+  transform: scale(0);
+}
+
+.social-buttons a i{
+  transition: 0.3s ease-in;
+}
+
+.social-buttons a:hover i{
+  background: linear-gradient(45deg,#22a6b3,#30336b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(2.2);
+}
+
+#p{
+  position: relative;
+  top: 25px; 
+}
+
+.div{
+  float: right;
+}
+
+.a{
+  color: #fff;
+  position: relative;
+  top: -57px;
+  padding: 0px;
+  left: 80px;
+  border-right: 1px solid #fff;
+  margin-left: 10px;
+  padding-right: 10px;
+}
+
+.a:hover{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1300px){
+  .social-buttons a::before{
+    width: 3px;
+    height:3px;
+  }
+
+  .social-buttons a{
+    width: 3px;
+    height: 3px;
+    margin-left: 60px;
+    display: inline-block;
+  }
+
+  #p{
+    position: relative;
+    right: 30px;
+    top: 10px;
+  }
+
+  .a{
+    position: relative;
+    left: 30px;
+    top: -38px;
+  }
+}
+  </style>
+</head>
+
+<body>
+
+
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">How To Learn Angular
+      <small>by
+        <a href="#">Basel Serhan</a>
+      </small>
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="#">My Blog</a>
+      </li>
+      <li class="breadcrumb-item active">How To Learn Angular</li>
+    </ol>
+
+    <div class="row">
+
+      <!-- Post Content Column -->
+      <div class="col-lg-8">
+
+        <!-- Preview Image -->
+        <img class="img-fluid rounded" src="C:\Users\Flash Tech\Documents\photo-1454165804606-c3d57bc86b40.webp" alt="">
+
+        <hr>
+
+        <!-- Date/Time -->
+        <p>Posted on March 31, 2020 at 1:18 AM</p>
+
+        <hr>
+
+        <!-- Post Content -->
+        <p class="lead">Before learning Angular, it helps to know a bit about the original version, called AngularJS, and talk about the most important differences between the first version and the later ones.Angular 2, 4 and 5 are very similar and they are all very different from the original AngularJS. It seems very strange that we had AngularJS for several years then Angular 2, 4 and 5 in a short space of time. This is because the people at Google decided to implement Semantic Versioning since version 2. Semantic versioning is the new standard for software versioning and the reason why it is now so popular is that the version number (or the change of version number) provides information about the changes made since the last version. With semantic versioning, the version number is split into three parts, each part separated by a period. [major version number] . [minor version number] . [patch version number] So when Angular changed from 4 to 5, this was a change of major version number.</p>
+
+       
+
+        <blockquote class="blockquote">
+          <p class="mb-0">"Success is a lousy teacher. It seduces smart people into thinking they can't lose."</p>
+          <footer class="blockquote-footer">Bill Gates
+            <cite title="Source Title">Wikipedia entry</cite>
+          </footer>
+        </blockquote>
+
+        <p>AngularJS is incredibly productive once you have mastered it. Despite all of this, it doesn’t prevent us from seeing its weaknesses. AngularJS is not perfect, with some very difficult concepts to grasp, and traps hard to avoid.</p>
+
+        <p>Most of all, the Web has changed since AngularJS was conceived. JavaScript has changed. New frameworks have emerged, with great ideas, or better implementation. We are not the kind of developers to tell you that you should use this tool instead of that one. We just happen to know some tools very well, and know what fits the project. AngularJS was one of those tools, allowing us to build well-tested web applications, and to build them fast. We also tried to bend it where it didn’t fit. Don’t blame us, it happens to the best of us.</p>
+
+        <hr>
+
+        <!-- Comments Form -->
+        <div class="card my-4">
+          <h5 class="card-header">Leave a Comment:</h5>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <textarea class="form-control" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Single Comment -->
+        <div class="media mb-4">
+          <img class="d-flex mr-3 rounded-circle" src="https://i.picsum.photos/id/400/50/50.jpg" alt="">
+          <div class="media-body">
+            <h5 class="mt-0">John Doe</h5>
+            I love Angular and it is very amazing in creating web applications.
+          </div>
+        </div>
+
+        <!-- Comment with nested comments -->
+        <div class="media mb-4">
+          <img class="d-flex mr-3 rounded-circle" src="https://i.picsum.photos/id/124/50/50.jpg" alt="">
+          <div class="media-body">
+            <h5 class="mt-0">Steve Jonson</h5>
+            I'm interested in Angular and I think it is awesome framework for frontend web development.
+
+            <div class="media mt-4">
+              <img class="d-flex mr-3 rounded-circle" src="https://i.picsum.photos/id/96/50/50.jpg" alt="">
+              <div class="media-body">
+                <h5 class="mt-0">Kate John</h5>
+                Fantastic framework for frontend web development, I really love it.
+              </div>
+            </div>
+
+            <div class="media mt-4">
+              <img class="d-flex mr-3 rounded-circle" src="https://i.picsum.photos/id/334/50/50.jpg" alt="">
+              <div class="media-body">
+                <h5 class="mt-0">Sofia Loris</h5>
+                I think Angular is a beautiful framework for frontend web development and I use it in creating responsive websites.
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Sidebar Widgets Column -->
+      <div class="col-md-4">
+
+        <!-- Search Widget -->
+        <div class="card mb-4">
+          <h5 class="card-header">Search</h5>
+          <div class="card-body">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-secondary" type="button">Go!</button>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Categories Widget -->
+        <div class="card my-4">
+          <h5 class="card-header">Categories</h5>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-6">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#">Web Design</a>
+                  </li>
+                  <li>
+                    <a href="#">HTML</a>
+                  </li>
+                  <li>
+                    <a href="#">Freebies</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#">JavaScript</a>
+                  </li>
+                  <li>
+                    <a href="#">CSS</a>
+                  </li>
+                  <li>
+                    <a href="#">Tutorials</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Side Widget -->
+        <div class="card my-4">
+          <h5 class="card-header">About</h5>
+          <div class="card-body">
+            Senior Web Developer specializing in front end development. Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming and design languages including HTML5, PHP OOP, JavaScript, CSS3, MySQL, WordPress. Strong background in project management and customer relations.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white" id="p">Copyright &copy; My Blog 2020</p>
+      <div class="social-buttons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <div class="div">
+        <a href="#" class="a">Privacy Policy</a>
+        <a href="#" class="a">Terms of Services</a>
+      </div>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
