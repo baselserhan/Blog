@@ -9,102 +9,14 @@
   <meta name="author" content="">
 
   <title>My Blog - How To Learn Angular</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <style>
-    .social-buttons a{
-  display: inline-flex;
-  text-decoration: none;
-  font-size: 18px;
-  width: 60px;
-  height: 60px;
-  color: #fff;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin: 0 8px;
-  top: -17px;
-  right: 100px;
-}
-
-.social-buttons a::before{
-  content: "";
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  background: linear-gradient(45deg,#22a6b3,#30336b);
-  border-radius: 50%;
-  z-index: -1;
-  transition: 0.3s ease-in;
-}
-
-.social-buttons a:hover::before{
-  transform: scale(0);
-}
-
-.social-buttons a i{
-  transition: 0.3s ease-in;
-}
-
-.social-buttons a:hover i{
-  background: linear-gradient(45deg,#22a6b3,#30336b);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: scale(2.2);
-}
-
-#p{
-  position: relative;
-  top: 25px; 
-}
-
-.div{
-  float: right;
-}
-
-.a{
-  color: #fff;
-  position: relative;
-  top: -57px;
-  padding: 0px;
-  left: 80px;
-  border-right: 1px solid #fff;
-  margin-left: 10px;
-  padding-right: 10px;
-}
-
-.a:hover{
-  text-decoration: none;
-}
-
-@media screen and (max-width: 1300px){
-  .social-buttons a::before{
-    width: 3px;
-    height:3px;
-  }
-
-  .social-buttons a{
-    width: 3px;
-    height: 3px;
-    margin-left: 60px;
-    display: inline-block;
-  }
-
-  #p{
-    position: relative;
-    right: 30px;
-    top: 10px;
-  }
-
-  .a{
-    position: relative;
-    left: 30px;
-    top: -38px;
-  }
-}
+    .mt-4{
+      font-family: sans-serif;
+    }
   </style>
 </head>
 
@@ -135,7 +47,7 @@
       <div class="col-lg-8">
 
         <!-- Preview Image -->
-        <img class="img-fluid rounded" src="C:\Users\Flash Tech\Documents\photo-1454165804606-c3d57bc86b40.webp" alt="">
+        <img class="img-fluid rounded" src="photo-1454165804606-c3d57bc86b40.webp" alt="">
 
         <hr>
 
@@ -283,17 +195,6 @@
   <footer class="py-5 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white" id="p">Copyright &copy; My Blog 2020</p>
-      <div class="social-buttons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-      </div>
-      <div class="div">
-        <a href="#" class="a">Privacy Policy</a>
-        <a href="#" class="a">Terms of Services</a>
-      </div>
     </div>
     <!-- /.container -->
   </footer>
